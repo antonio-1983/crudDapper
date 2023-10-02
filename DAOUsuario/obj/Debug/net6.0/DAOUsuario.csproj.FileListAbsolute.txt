@@ -1,0 +1,12 @@
+C:\Users\Antonio\source\repos\DAOUsuario\bin\Debug\net6.0\DAOUsuario.deps.json
+C:\Users\Antonio\source\repos\DAOUsuario\bin\Debug\net6.0\DAOUsuario.dll
+C:\Users\Antonio\source\repos\DAOUsuario\bin\Debug\net6.0\DAOUsuario.pdb
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.csproj.AssemblyReference.cache
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.AssemblyInfoInputs.cache
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.AssemblyInfo.cs
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.dll
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\refint\DAOUsuario.dll
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\DAOUsuario.pdb
+C:\Users\Antonio\source\repos\DAOUsuario\obj\Debug\net6.0\ref\DAOUsuario.dll
