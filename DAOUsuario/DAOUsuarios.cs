@@ -3,10 +3,11 @@ using MySql.Data.MySqlClient;
 using Dapper;
 using MySqlX.XDevAPI.Common;
 
+
 namespace DAOUsuario
 
 {
-    public class DAOUsuarios
+    public class DAOUsuarios : IDAOUsuarios
     {
         string connection = @"Server=localhost; Database=ejercicioDapper; Uid=root;";
         string sqlUsuarios = "select Id,Nombre,Edad from Usuarios Where Activo=1;";
