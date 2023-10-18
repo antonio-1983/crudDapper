@@ -1,9 +1,18 @@
 ﻿using DAOUsuario;
+using EjercicioDapperCRUD;
+using Ninject;
 using System;
 
+ IKernel kernel;
 DAOUsuarios BDUsuario = new DAOUsuarios();
 List<Usuario> usuarios = new List<Usuario>();
 List<Usuario> usuariosActualizados = new List<Usuario>();
+
+kernel= new StandardKernel(new NinjectDAOs());
+
+
+UsuariosManager listadoUsuarios = kernel.Get<UsuariosManager>();
+
 usuarios = BDUsuario.ObtenerUsuarios();
 Console.WriteLine("Lista de usuarios");
 foreach (var usuario in usuarios)
@@ -31,3 +40,4 @@ foreach (var usuario in usuariosActualizados)
 {
     Console.WriteLine(usuario.Id + " " + usuario.Nombre + " " + usuario.Edad);
 }
+Console.WriteLine(" "+listadoUsuarios.ObtenerListadoDeUsuarios());
